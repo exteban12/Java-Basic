@@ -42,7 +42,7 @@ public class cadenas {
 
         //replace remplazar caracteres 
         System.out.println(" Esteban david robles ".replace(" ", ""));
-
+        System.out.println("----------------------------------------------------");
         // formateo
         /*
         %s = para cadenas de texto

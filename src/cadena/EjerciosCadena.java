@@ -1,7 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package cadena;
 
 /**
@@ -14,7 +10,7 @@ public class EjerciosCadena {
 
         String cadena1 = "Hola";
         String cadena2 = "Mundo";
-        String cadena3 = "Esteban Robles Perez";
+        String cadena3 = "  Esteban Robles Perez  ";
         
         // 1. Concatena dos cadenas de texto.
         System.out.println(cadena1 + " " + cadena2);
@@ -36,12 +32,31 @@ public class EjerciosCadena {
         // 4. Convierte a mayúsculas y minúsculas un string.
         System.out.println(cadena1.toUpperCase());
         System.out.println(cadena2.toLowerCase());
+        System.out.println("----------------------------------------------------");
+
         // 5. Comprueba si una cadena de texto contiene una palabra concreta.
+        System.out.println(cadena1.contains("ola"));
+        System.out.println(cadena1.contains("Esteban"));
+        System.out.println("----------------------------------------------------");
+
+        
         // 6. Formatea un string con un entero.
+        int age = 21;
+        System.out.println(String.format("%s tiene %d ",cadena3,age));
+        System.out.println("----------------------------------------------------");
+
+       
         // 7. Elimina los espacios en blanco al principio y final de un string.
+        System.out.println(cadena3.trim());
+        System.out.println("----------------------------------------------------");
         // 8. Sustituye todos los espacios en blanco de un string por un guión (-).
+        System.out.println(cadena3.replace(" ", "-"));
+        System.out.println("----------------------------------------------------");
         // 9. Comprueba si dos strings son iguales.
+        System.out.println(cadena1.equals(cadena2));
+        System.out.println("----------------------------------------------------");
         // 10. Comprueba si dos strings tienen la misma longitud.
+        
     }
 
 }
