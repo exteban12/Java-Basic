@@ -12,7 +12,7 @@ public class Operadores {
         System.out.println(a * b);
         System.out.println(a / b);
         System.out.println(a % b);
-
+        System.out.println("_____________________");
         // asignacion
         a -= 1;
         System.out.println(a);

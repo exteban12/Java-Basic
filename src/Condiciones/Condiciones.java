@@ -17,7 +17,38 @@ public class Condiciones {
         } else {
             System.out.println("Eres menor de edad");
         }
+        
+        
+        var day = 1;
+        
+        switch (day) {
+            case 1:
+                System.out.println("es dia 1");
+                break;
+            case 2:
+                System.out.println("es dia 1");
+                break;
+            case 3:
+                System.out.println("es dia 1");
+                break;
+            case 4:
+                System.out.println("es dia 1");
+                break;   
+            default:
+                System.out.println("no es ninguno");
+        }
+ 
+        
+        
+        
+        
+
+        
+
+
+
 
     }
 
 }
+ 
