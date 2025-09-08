@@ -104,11 +104,12 @@ public class Ejercicios {
        
         
         // 8. Escribe un programa que determine si puedes entrar al cine: debes tener al menos 15 años o ir acompañado.
-        int edad = 14;
-        if (edad >= 15) {
-            System.out.println("Puedes entar");
-        }else{
+        int edad = 15;
+        boolean compañia = true;
+        if (edad < 15 && !compañia  ) {
             System.out.println("Necesitas compania");
+        }else{
+            System.out.println("Puedes entar");
         }
         // 9. Crea un programa que diga si una letra es vocal o consonante.
         char vocal ='y';
